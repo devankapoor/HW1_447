@@ -1,0 +1,47 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("image2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+}
+
+p {
+    color: white;
+    text-size-adjust: 400px;
+    text-align: center;
+    font-style: italic;
+}
+
+nav {
+    text-align:center;
+    color: aliceblue; 
+}
+
+.navbar {
+    background:#ff0000;
+    height: 66px;
+    
+}
+
+.nav-link,
+.navbar-brand {
+    color: rgb(247, 247, 247);
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+    color: black;
+}
+.nav-link:hover {
+    color: white;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
